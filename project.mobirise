@@ -40,9 +40,9 @@
         "url": "https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700"
       }
     ],
-    "uniqCompNum": 21,
+    "uniqCompNum": 14,
     "versionPublish": "4.8.7",
-    "siteUrl": "https://eurematic.com",
+    "siteUrl": "http://eurematic.com",
     "sitemapSwitcherAuto": "on",
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x130.png",
     "noImageResize": "",
@@ -216,11 +216,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#00b8ff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><a href=\"privacy.html#content5-i\" class=\"text-white\">Privacy Policy</a></div>\n    </div>\n</section>",
           "_cid": "r92fpRdScO",
+          "_anchor": "content4-e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-e"
+          "_params": {}
         },
         {
           "_styles": {
@@ -264,7 +264,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#00b8ff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"index.html#header4-0\" data-app-placeholder=\"Type Text\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span>Back</a></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#00b8ff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"index.html#header4-0\" data-app-placeholder=\"Type Text\">Back</a></div>\n    </div>\n</section>",
           "_anchor": "content5-i",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
@@ -341,36 +341,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "h1": {
-              "margin-bottom": "20px"
-            },
-            ".wrapper": {
-              "text-align": "center"
-            },
-            ".amp-iconfont": {
-              "padding": "1rem",
-              "margin": ".5rem",
-              "background": "@iconsBg",
-              "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
-              "font-size": "~\"@{iconsSize}rem\""
-            }
-          },
-          "_name": "social-follow",
-          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"1.5\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#00b8ff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#00b8ff\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Follow Us\n        </h1>\n        <div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\">\n            <a href=\"https://www.facebook.com/eurematic\" target=\"_blank\">\n                <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n            </a>\n            <a href=\"https://twitter.com/eurematic\" target=\"_blank\">\n                <span mbr-icon=\"\" class=\"amp-iconfont fa-twitter fa\"></span>\n            </a>\n            <a href=\"https://www.instagram.com/eurematic\" target=\"_blank\">\n                <span mbr-icon=\"\" class=\"amp-iconfont fa-instagram fa\"></span>\n            </a>\n            \n            \n            \n            \n        </div>\n    </div>\n</section>",
-          "_anchor": "social-follow-k",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "r92fZudEFF",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
@@ -388,11 +358,11 @@
           "_name": "footer1",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#00b8ff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2018 eurematic - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
           "_cid": "r5voEpw4sh",
+          "_anchor": "footer1-f",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-f"
+          "_params": {}
         }
       ]
     }
