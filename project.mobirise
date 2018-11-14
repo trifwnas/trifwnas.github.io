@@ -46,7 +46,7 @@
     "sitemapSwitcherAuto": "on",
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x130.png",
     "noImageResize": "",
-    "google-analytics": "<amp-analytics type=\"gtag\" data-credentials=\"include\">\r\n<script type=\"application/json\">\r\n{\r\n  \"vars\" : {\r\n    \"gtag_id\": UA-46431000-13,\r\n    \"config\" : {\r\n      UA-46431000-13: { \"groups\": \"default\" }\r\n    }\r\n  }\r\n}\r\n</script>\r\n</amp-analytics>",
+    "google-analytics": "<!-- Load AMP -->\r\n    <script async src=\"https://cdn.ampproject.org/v0.js\"></script>\r\n\r\n    <!-- Load amp-analytics -->\r\n    <script async custom-element=\"amp-analytics\" src=\"https://cdn.ampproject.org/v0/amp-analytics-0.1.js\"></script>\r\n<amp-analytics type=\"gtag\" data-credentials=\"include\">\r\n<script type=\"application/json\">\r\n{\r\n  \"vars\" : {\r\n    \"gtag_id\": UA-46431000-13,\r\n    \"config\" : {\r\n      UA-46431000-13: { \"groups\": \"default\" }\r\n    }\r\n  }\r\n}\r\n</script>\r\n</amp-analytics>",
     "sitemapSwitcher": "on",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
