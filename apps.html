@@ -31,17 +31,50 @@ body{font-family: Roboto;}blockquote{border-color: #00b8ff;}.display-1{font-fami
 <body><div id="top-page"></div>                                         <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0.4", "visibility": "visible" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <amp-animation id="hideScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0", "visibility": "hidden" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <div id="scrollToTopMarker">                                             <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">                                             </amp-position-observer>                                         </div>
 
 <!-- Google Analytics -->
-<amp-analytics type="gtag" data-credentials="include">
-<script type="application/json">
-{
-  "vars" : {
-    "gtag_id": UA-46431000-13,
-    "config" : {
-      UA-46431000-13: { "groups": "default" }
+<amp-analytics type="googleanalytics" id="analytics-ga">
+  <script type="application/json">
+  {
+    "vars": {
+      "account": "UA-46431000-13"
+    },
+    "triggers": {
+      "trackPageview": {
+        "on": "visible",
+        "request": "pageview"
+      },
+      "previews": {
+        "on": "click",
+        "selector": "[data-vars-preview]",
+        "request": "event",
+        "vars": {
+          "eventCategory": "preview",
+          "eventAction": "click",
+          "eventLabel": "${preview}"
+        }
+      },
+      "downloads": {
+        "on": "click",
+        "selector": "[data-vars-download]",
+        "request": "event",
+        "vars": {
+          "eventCategory": "download",
+          "eventAction": "click",
+          "eventLabel": "${download}"
+        }
+      },
+      "outboundLinks": {
+        "on": "click",
+        "selector": "[data-vars-outbound-link]",
+        "request": "event",
+        "vars": {
+          "eventCategory": "outbound",
+          "eventAction": "click",
+          "eventLabel": "${outboundLink}"
+        }
+      }
     }
   }
-}
-</script>
+  </script>
 </amp-analytics>
 <!-- /Google Analytics -->
 
@@ -57,7 +90,7 @@ body{font-family: Roboto;}blockquote{border-color: #00b8ff;}.display-1{font-fami
     </div>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/m">free site design templates</a></section><section class="header4 cid-r9n8T622QC" id="header4-u">
+<section class="engine"><a href="https://mobirise.info/l">free web templates</a></section><section class="header4 cid-r9n8T622QC" id="header4-u">
 
     
 
