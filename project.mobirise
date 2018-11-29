@@ -13,14 +13,14 @@
         "warningColor": "#00b8ff",
         "dangerColor": "#00b8ff",
         "mainFont": "Roboto",
-        "display1Font": "Black Ops One",
-        "display1Size": "7",
+        "display1Font": "Jura",
+        "display1Size": 4.5,
         "display2Font": "Jura",
         "display2Size": 2.2,
         "display5Font": "Jura",
-        "display5Size": "1.4",
+        "display5Size": "1.6",
         "display7Font": "Jura",
-        "display7Size": "1.2",
+        "display7Size": 1.1,
         "display4Font": "Jura",
         "display4Size": 0.9,
         "isRoundedButtons": true,
@@ -38,14 +38,9 @@
         "css": "'Jura', sans-serif",
         "name": "Jura",
         "url": "https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700"
-      },
-      {
-        "css": "'Black Ops One', display",
-        "name": "Black Ops One",
-        "url": "https://fonts.googleapis.com/css?family=Black+Ops+One:400"
       }
     ],
-    "uniqCompNum": 31,
+    "uniqCompNum": 30,
     "versionPublish": "4.8.7",
     "siteUrl": "http://eurematic.com",
     "sitemapSwitcherAuto": "on",
@@ -167,6 +162,23 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#00b8ff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"mailto:trif.tz@gmail.com\" data-app-placeholder=\"Type Text\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Contact Me</a></div>\n    </div>\n</section>",
+          "_anchor": "content5-f",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "r91TBM9w0n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             "h1": {
               "margin-bottom": "20px"
@@ -186,28 +198,11 @@
             }
           },
           "_name": "social-follow",
-          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"5\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#00b8ff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#00b8ff\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>\n            Services</b></h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"/eurematic\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont mbri-extension\"></span>\n            </a>\n            \n            \n            \n            \n            \n            \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"8\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"5\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#00b8ff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#00b8ff\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>\n            Services</b></h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"/eurematic\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont mbri-extension\"></span>\n            </a>\n            \n            \n            \n            \n            \n            \n        </div>\n    </div>\n</section>",
           "_anchor": "social-follow-e",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "raPlu2Irz6",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#00b8ff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"mailto:trif.tz@gmail.com\" data-app-placeholder=\"Type Text\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>Contact Me</a></div>\n    </div>\n</section>",
-          "_anchor": "content5-f",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "r91TBM9w0n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
