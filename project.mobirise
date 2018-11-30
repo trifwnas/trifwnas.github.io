@@ -291,7 +291,7 @@
     },
     "privacy.html": {
       "settings": {
-        "title": "Privacy Policy - T",
+        "title": "T - Privacy Policy",
         "order": 3
       },
       "components": [
