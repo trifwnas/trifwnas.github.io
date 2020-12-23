@@ -40,6 +40,7 @@ body {
 
 ol, ul {
 	list-style: none;
+	padding-bottom: 25pt;
 }
 
 blockquote, q {
@@ -129,8 +130,9 @@ input, select, textarea {
 		
 		h2{
 			font-family:  'Black Ops One', cursive;
-			font-size: 175pt;
+			font-size: 150pt;
 			margin: 55pt;
+			padding-top: 25pt;
 		}
 
 /* Icon */
