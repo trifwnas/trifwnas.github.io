@@ -180,7 +180,7 @@ html {
 
 body {
   background: #fff;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body.is-preload *,
